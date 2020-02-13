@@ -30,3 +30,9 @@ void print2D(int **people, int size) {
         printf("[%d %d] ", people[i][0], people[i][1]);
     putchar('\n');
 }
+
+void print1D(int *array, int n) {
+    for(int i=0; i<n; i++)
+        printf("%d ", array[i]);
+    putchar('\n');
+}
