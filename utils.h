@@ -36,3 +36,11 @@ void print1D(int *array, int n) {
         printf("%d ", array[i]);
     putchar('\n');
 }
+
+void printMatrix(int **M, int m, int n) {
+    for(int i=0; i<m; i++) {
+        for(int j=0; j<n; j++)
+            printf("%3d ", M[i][j]);
+        putchar('\n');
+    }
+}
